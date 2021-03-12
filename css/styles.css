@@ -1,0 +1,67 @@
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  background: rgba(250, 250, 250);
+  margin: 10px;
+  border-radius: 15px;
+  max-width: 425px;
+}
+.img-responsive{
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.special-text{
+  font-weight: 400;
+  color: rgb(92, 92, 92);
+  margin-top: -5px;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture{
+  border-radius: 150px;
+  border: solid #fff 5px;
+  position: relative;
+  top: -50px;
+}
+h3{
+  margin-top: -15px;
+}
+
+hr{
+  color: rgba(54, 54, 54, 0.849);
+}
+
+.stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.stats .text{
+  font-weight: 200;
+  margin-top: -10px;
+  color: rgb(92, 92, 92);
+}
